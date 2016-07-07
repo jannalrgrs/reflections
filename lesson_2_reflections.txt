@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+Needed because it is what git uses to store the data.
+Git init allows git to start controlling that directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area = area where changes can be made before committing them to the repository.
+Allows for less commits, instead of committing with each little change
+
+How can you use the staging area to make sure you have one commit per logical
+change? 
+It allows you to test your code before committing. Also allows you to compare files of the most recent commit.
+
+When would you want to create a new branch, and when would you not
+Create: When your making a new version/ feature, maybe experimenting with other programmers. When multiple programmers are working on a project.
+Not Create: ? Have to come back to
+
+How do the diagrams help you visualize these changes?
+They make it easy to see the flow of the branch
+
+
+What is the result of merging two branches together?  Why do we represent it in
+the diagram the way we do?
+Merging results in a commit between both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually? 
+Pros: Multiple parties (again!)
+Con: Maybe one part of merged code conflicts with another (Broken code).
+
