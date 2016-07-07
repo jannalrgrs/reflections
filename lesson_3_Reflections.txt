@@ -2,3 +2,19 @@ When would you want to use a remote repository rather than keeping all your work
 Whenever there's multiple collaborators, when you want to share work with others. Or if you forget/ lose your own computer
 
 
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+All are used to add new changes without altering the existing version (ex. Larry’s recipes).
+
+Forking : only able to fork to another github repository from github.
+Branching: used to keep another version
+cloning: only works on local repositories, including files from github.
+
+What is the benefit of having a copy of the last known state of the remote stored locally? 
+Knowing the last remote allows you merge the latest version with your local branch, then you can push it back to Github’s remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+
+
+
